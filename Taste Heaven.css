@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar section start */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    margin: -12px;
+}
+
+#logo img {
+    margin: 13px;
+    padding: 1px;
+    height: 109px;
+    width: 122px;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar::before {
+    content: "";
+    /* background-color: gray; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 1.5;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* navbar section end */
+
+/* Home Section start */
+#home {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home::before {
+    content: "";
+    background: url(Hnet.com-image.jpg);
+
+    position: absolute;
+    height: 124%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+.primary {
+    color: white;
+    font-size: 38.5px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.btn {
+    padding: 5px 20px;
+    border: 2.5px solid white;
+    background-color: rgb(194, 73, 73);
+    color: white;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+/* home section end */
+
+/* services section start */
+.primary-center {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 16px 34px;
+    padding: 4px 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32.5px;
+
+
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.box {
+    border: 2px solid red;
+    text-align: center;
+    display: inline-block;
+    margin: auto 31px;
+    width: 300px;
+    padding: 4px 23px;
+    border-radius: 23.5px;
+    background-color: rgb(247, 245, 245);
+
+}
+
+.text-center {
+    color: black;
+    padding: 0px 20px;
+    display: flex;
+}
+
+h2.secondary-center {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 20px;
+}
+
+/* services section end */
+
+/* client section start */
+h2.third-center {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32.5px;
+    margin: 23px
+}
+
+#clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-item img {
+    height: 124px;
+    padding: 20px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(background\ \(2\).jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+
+}
+
+/* client section end */
+
+/* contact us section start */
+#contact {
+    position: relative;
+    padding: 13px 0px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background: url(contact-us.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+.fourth-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32.5px;
+}
+
+#contact-box {
+    display: inline-block;
+    width: 200px;
+    margin: auto 45%;
+    padding: 25px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+
+
+
+}
+
+/* contact us section end */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
